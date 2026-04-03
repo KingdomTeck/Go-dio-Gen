@@ -1,0 +1,5 @@
+{
+  "name": "Go-dio Gen",
+  "description": "A text-to-speech tool using Google's Gemini TTS model with selectable voices.",
+  "requestFramePermissions": []
+}
