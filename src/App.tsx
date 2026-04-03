@@ -4,6 +4,7 @@ import { Play, Loader2, Volume2, Download, Mic2, Settings2, Music, Sparkles, Che
 import * as mammoth from 'mammoth';
 // @ts-ignore
 import lamejs from 'lamejs';
+import { Analytics } from '@vercel/analytics/react';
 
 declare global {
   interface Window {
@@ -1022,6 +1023,7 @@ export default function App() {
           </div>
         </div>
       )}
+      <Analytics />
     </div>
   );
 }
